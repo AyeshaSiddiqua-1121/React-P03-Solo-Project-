@@ -1,0 +1,114 @@
+
+.card-body{
+    margin: auto;
+    width: 550px;
+    background-color: #272d38;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.card-body > img{
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.card--user-name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+.card--description{
+    margin-top: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    color:#e8b564;
+    margin-bottom: 15px;
+}
+.card--email{
+    margin-top: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.card--buttons-row{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.card--buttons-row >button{
+margin:10px;
+padding: 10px 50px;
+font-size: 20px;
+border: none;
+border-radius: 10px;
+
+}
+.card--buttons-row >button:last-child{
+    background-color: #2fa7f7;
+}
+
+/* About Style */
+.about--title{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.about{
+    width: 500px;
+    color: white;
+
+}
+.about--description{
+    margin-left: 50px;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+/* Interest Style */
+
+.interest--title{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.interest{
+    width: 500px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+.interest--description{
+    margin-left: 50px;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.footer{
+    padding: 20px;
+    position: relative;
+    background-color: #1c2124;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    border-radius: 0.3rem;
+    gap: 25px;
+}
